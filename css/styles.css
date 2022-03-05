@@ -3,7 +3,6 @@
 body{
   font-size: 11px; text-align: center;
   background-color: #D5E1EF;
-  display: flex;
 }
 
 a { 
@@ -18,11 +17,13 @@ img{
 }
 
 .cuadro-interno{
+    display: flex;
     margin: 152px 560px 152px 560px;
     width: 320px;
     height: 497px;
     background-color: #FFFFFF;
     border-radius: 5%;
+    flex-direction: column;
 }
 
 .texto-interno{
@@ -49,4 +50,8 @@ img{
     font-size: 15px;
     margin: 16px 16px 40px 16px;
     text-align: center;
+}
+
+footer {
+    width: 100%;
 }
